@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/WyntonD.github.io/static/css/main.74c2d177.chunk.css",
-    "main.js": "/WyntonD.github.io/static/js/main.ee982618.chunk.js",
-    "main.js.map": "/WyntonD.github.io/static/js/main.ee982618.chunk.js.map",
-    "runtime-main.js": "/WyntonD.github.io/static/js/runtime-main.2c8e896e.js",
-    "runtime-main.js.map": "/WyntonD.github.io/static/js/runtime-main.2c8e896e.js.map",
-    "static/css/2.8ddd9e3d.chunk.css": "/WyntonD.github.io/static/css/2.8ddd9e3d.chunk.css",
-    "static/js/2.3f7aa3e8.chunk.js": "/WyntonD.github.io/static/js/2.3f7aa3e8.chunk.js",
-    "static/js/2.3f7aa3e8.chunk.js.map": "/WyntonD.github.io/static/js/2.3f7aa3e8.chunk.js.map",
-    "static/js/3.6a288b70.chunk.js": "/WyntonD.github.io/static/js/3.6a288b70.chunk.js",
-    "static/js/3.6a288b70.chunk.js.map": "/WyntonD.github.io/static/js/3.6a288b70.chunk.js.map",
-    "index.html": "/WyntonD.github.io/index.html",
-    "static/css/2.8ddd9e3d.chunk.css.map": "/WyntonD.github.io/static/css/2.8ddd9e3d.chunk.css.map",
-    "static/css/main.74c2d177.chunk.css.map": "/WyntonD.github.io/static/css/main.74c2d177.chunk.css.map",
-    "static/js/2.3f7aa3e8.chunk.js.LICENSE.txt": "/WyntonD.github.io/static/js/2.3f7aa3e8.chunk.js.LICENSE.txt"
+    "main.css": "/WyntonD.github.io/Wyntluger/static/css/main.74c2d177.chunk.css",
+    "main.js": "/WyntonD.github.io/Wyntluger/static/js/main.a8661b47.chunk.js",
+    "main.js.map": "/WyntonD.github.io/Wyntluger/static/js/main.a8661b47.chunk.js.map",
+    "runtime-main.js": "/WyntonD.github.io/Wyntluger/static/js/runtime-main.3f634330.js",
+    "runtime-main.js.map": "/WyntonD.github.io/Wyntluger/static/js/runtime-main.3f634330.js.map",
+    "static/css/2.8ddd9e3d.chunk.css": "/WyntonD.github.io/Wyntluger/static/css/2.8ddd9e3d.chunk.css",
+    "static/js/2.e461eb43.chunk.js": "/WyntonD.github.io/Wyntluger/static/js/2.e461eb43.chunk.js",
+    "static/js/2.e461eb43.chunk.js.map": "/WyntonD.github.io/Wyntluger/static/js/2.e461eb43.chunk.js.map",
+    "static/js/3.6a288b70.chunk.js": "/WyntonD.github.io/Wyntluger/static/js/3.6a288b70.chunk.js",
+    "static/js/3.6a288b70.chunk.js.map": "/WyntonD.github.io/Wyntluger/static/js/3.6a288b70.chunk.js.map",
+    "index.html": "/WyntonD.github.io/Wyntluger/index.html",
+    "static/css/2.8ddd9e3d.chunk.css.map": "/WyntonD.github.io/Wyntluger/static/css/2.8ddd9e3d.chunk.css.map",
+    "static/css/main.74c2d177.chunk.css.map": "/WyntonD.github.io/Wyntluger/static/css/main.74c2d177.chunk.css.map",
+    "static/js/2.e461eb43.chunk.js.LICENSE.txt": "/WyntonD.github.io/Wyntluger/static/js/2.e461eb43.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c8e896e.js",
+    "static/js/runtime-main.3f634330.js",
     "static/css/2.8ddd9e3d.chunk.css",
-    "static/js/2.3f7aa3e8.chunk.js",
+    "static/js/2.e461eb43.chunk.js",
     "static/css/main.74c2d177.chunk.css",
-    "static/js/main.ee982618.chunk.js"
+    "static/js/main.a8661b47.chunk.js"
   ]
 }
