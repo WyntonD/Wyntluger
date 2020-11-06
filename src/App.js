@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import {AnimatePresence} from 'framer-motion';
 import LandingPage from './components/Pages/Landing';
+import Landing2 from './components/Pages/Landing2';
 import Beats from './components/Pages/Beats';
 
 // const Landing = () => {
@@ -32,7 +33,7 @@ function App() {
     <div className="App">
         <AnimatePresence>
           <Switch>
-            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/" component={Landing2} />
             <Route exact path="/beats" component={Beats} />
           </Switch>
         </AnimatePresence>

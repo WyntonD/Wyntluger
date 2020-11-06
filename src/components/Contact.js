@@ -27,7 +27,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <Space>
-                    <Button type="primary" onClick={this.showDrawer} style={{ width: '100%', color: '#fff', backgroundColor: 'green' }}>
+                    <Button className="menu" type="primary" onClick={this.showDrawer} style={{ width: '100%', color: '#fff', backgroundColor: 'green' }}>
                         Contact
           </Button>
                 </Space>

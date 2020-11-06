@@ -9,7 +9,7 @@ const { Content } = Layout;
 
 function Soundcloud() {
   return (
-    <div className={classes.Container} style={{ backgroundColor: '#000' }}>
+    <div className={classes.Container} style={{ backgroundColor: '#000', width:'100%', height: '100%' }}>
       <video autoPlay="autoplay" loop="loop" muted className={classes.Video} >
         {/* <source src={videoSource} type="video/mp4" /> */}
         Your browser does not support the video tag.
@@ -21,7 +21,6 @@ function Soundcloud() {
           width='100%'
           url="https://soundcloud.com/wyntluger"
         />
-        <Moment format="MMMM Do YYYY, h:mm a" style={{color:'#fff', textAlign:'center'}} />
         </Content>
       </div>
     </div>

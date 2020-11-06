@@ -24,7 +24,7 @@ function BackgroundVid() {
 
             <div className={classes.Content}>
                 <div className={classes.SubContent} >
-                    {/* <h1 style={{color: '#fff'}}>Welcome!</h1> */}
+                    <p style={{color: 'orange', fontFamily:"'Cinzel', serif"}}>Welcome!</p>
                     
                     {/* <img
                         src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"

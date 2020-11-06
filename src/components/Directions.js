@@ -22,7 +22,7 @@ class Directions extends React.Component {
   render() {
     return (
       <div>
-        <Button type="primary" onClick={this.showDrawer} style={{width:'100%', color:'#fff', backgroundColor:'green'}}>
+        <Button type="primary" onClick={this.showDrawer} style={{width:'100%', color:'#000', backgroundColor:'#fff'}}>
           How to Buy
         </Button>
         <Drawer
