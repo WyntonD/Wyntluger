@@ -54,10 +54,10 @@ function OrderForm() {
       onSubmit={sendEmail}
     >
       <div style={{textAlign:'center'}}>
+      <h2>Order</h2>
       <strong>Leasing:</strong> <p>$50/beat</p>
       <strong>Buying:</strong> <p>$500/beat</p>
       </div>
-      <h2>Order</h2>
       <p>Name</p>
       <Form.Item >
         <Input type="text" name="name" />

@@ -41,6 +41,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index:5;
 }
 
 nav ul {
@@ -90,6 +91,15 @@ nav ul li a {
     cursor: pointer;
     color: #fff;
     display: none;
+}
+
+.soundcloud {
+    z-index: 4;
+}
+
+.order-form {
+    width: 75%;
+    padding-left:50px;
 }
 
 @media(max-width: 786px) {
