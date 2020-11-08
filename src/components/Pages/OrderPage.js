@@ -8,7 +8,7 @@ function Order() {
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_llcpc9c', 'template_2rgemg9', e.target, 'user_qYD4MLdttnih5LD9sk3yF')
+        emailjs.sendForm('service_i92g6ws', 'template_xta6o2j', e.target, 'user_qYD4MLdttnih5LD9sk3yF')
           .then((result) => {
             console.log(result.text);
           }, (error) => {

@@ -13,7 +13,7 @@ function OrderForm() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_llcpc9c', 'template_2rgemg9', e.target, 'user_qYD4MLdttnih5LD9sk3yF')
+    emailjs.sendForm('service_946xt07', 'template_xta6o2j', e.target, 'user_qYD4MLdttnih5LD9sk3yF')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
