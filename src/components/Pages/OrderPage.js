@@ -48,7 +48,7 @@ function Order() {
       onValuesChange={onRequiredTypeChange}
       requiredMark={requiredMark}
     >
-      <div style={{textAlign:'center', backgroundColor: '#000', color: '#fff'}}>
+      <div style={{textAlign:'center', backgroundColor: '#000', color: '#fff', paddingLeft: '30px'}} id="buy">
         <strong>Leasing:</strong> <p>$50/beat</p>
         <strong>Buying:</strong> <p>$500/beat</p>
       </div>

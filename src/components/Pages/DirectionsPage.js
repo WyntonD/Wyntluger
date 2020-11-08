@@ -4,14 +4,14 @@ function DirectionsPage() {
     return (
             <div>
             <h1>Wyntluger Beats offers payment through CashApp and Zelle!</h1> <br />
+            <ul style={{backgroundColor: '#000', 
+                        color:'#fff',
+                        textAlign:'center'}}>
             <h2 style={{backgroundColor: '#000', 
                         color:'#fff',
                         textAlign:'center'}}>
                 Directions:
             </h2> <br />
-            <ul style={{backgroundColor: '#000', 
-                        color:'#fff',
-                        textAlign:'center'}}>
               <li>1.Find the name of your selected beat(s) on the beat page</li>
               <li>2. Fill out the order information form located below the beats page
               </li>

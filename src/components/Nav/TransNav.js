@@ -31,21 +31,23 @@ $(window).on("scroll", function() {
 function TransNav() {
     return (
         <div className="wrapper">
-            <header>
+            <header id="top">
             <nav>
                 <div class="menu-icon">
                     <i class="fa fa-bars fa-2x"></i>
                 </div>
                 <div class="logo">
+                <a href="#top">
                 <img src={process.env.PUBLIC_URL + './images/WLLogo.jpg'} alt="Logo" style={{width:50, height:50}}></img>
+                </a>
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Beats</a></li>
-                        <li><a href="#">Buy</a></li>
-                        <li><a href="#">Directions</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#top" style={{color:'green'}}>Home</a></li>
+                        <li><a href="#beats" style={{color:'green'}}>Beats</a></li>
+                        <li><a href="#buy" style={{color:'green'}}>Buy</a></li>
+                        <li><a href="#howto" style={{color:'green'}}>Directions</a></li>
+                        <li><a href="#contact" style={{color:'green'}}>Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -63,24 +65,24 @@ function TransNav() {
             </strong>
             <p>You will receive full royalities up to 1 million streams</p>
             <p>
-                Wyntluger Beats brings sounds of multiple of genres to include predominately Electronic, R & B, and Hip-hop music. 
-                The sounds provided are made with the intent of optimal quality and precision to maximize song potential for artists and songwriters 
-                of many backgrounds. With this, thank you for exploring and wish you well in all aspects. <br /> <br />
+                Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop music. 
+                The sounds provided are made with the sole intent of optimal quality and precision to maximize song potential for all artists and songwriters 
+                of many backgrounds. With this, thank you for exploring and wish you well. <br /> <br />
                     <p style={{textAlign:'center'}}>-Wyntluger</p>
 
 
             </p>
         </div>
-        <div class="content">
+        <div class="content" id="beats">
             <Soundcloud className="soundcloud"/>
         </div>
-        <div class="directions">
+        <div class="directions" id="howto">
             <DirectionsPage />
         </div>
         <div class="order-form">
             <Order />
         </div>
-        <div class="content">
+        <div class="content" id="contact">
             Contact:
             <h4>
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
