@@ -5,8 +5,10 @@ import {
   Route
 } from "react-router-dom";
 import {AnimatePresence} from 'framer-motion';
+import LandingPage from './components/Pages/Landing';
 import MainLanding from './components/Pages/MainLanding';
 import Landing2 from './components/Pages/Landing2';
+import Beats from './components/Pages/Beats';
 import Success from './components/Pages/Success';
 
 function App() {

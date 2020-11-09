@@ -1,8 +1,12 @@
 import React from 'react';
 import $ from 'jquery';
+import Moment from 'react-moment';
 import 'moment-timezone';
+import Order from '../Pages/OrderPage';
 import Email2 from '../Email2';
+import BuyForm from '../BuyForm';
 import DirectionsPage from '../Pages/DirectionsPage';
+import Contact from '../Contact';
 import Soundcloud from '../Soundcloud/Soundcloud';
 import './TransNav.css';
 
@@ -70,7 +74,7 @@ function TransNav() {
             </p>
         </div>
         <div class="content" id="beats">
-            <Soundcloud className="soundcloud"/>
+            <Soundcloud className="soundcloud" style={{width:'100%'}}/>
         </div>
         <div class="directions" id="howto">
             <DirectionsPage />
