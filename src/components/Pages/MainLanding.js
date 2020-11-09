@@ -4,12 +4,6 @@ import Moment from 'react-moment';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import 'moment-timezone';
-import Order from '../Pages/OrderPage';
-import Email2 from '../Email2';
-import BuyForm from '../BuyForm';
-import DirectionsPage from '../Pages/DirectionsPage';
-import Contact from '../Contact';
-import Soundcloud from '../Soundcloud/Soundcloud';
 import '../Nav/TransNav.css';
 
 
