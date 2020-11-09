@@ -2,6 +2,7 @@ import React from 'react';
 import $ from 'jquery';
 import Moment from 'react-moment';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Button from 'react-bootstrap/Button';
 import 'moment-timezone';
 import Order from '../Pages/OrderPage';
