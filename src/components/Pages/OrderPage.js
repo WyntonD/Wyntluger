@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { Form, Input, Button, Radio, Modal } from 'antd';
-import emailjs from 'emailjs-com';
+import { init, emailjs } from 'emailjs-com';
 import { InfoCircleOutlined } from '@ant-design/icons';
+
+init("user_rPqt2rKqVdOSXb8qYB3Qs");
 
 function Order() {
 
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_i92g6ws', 'template_xta6o2j', e.target, 'user_qYD4MLdttnih5LD9sk3yF')
+        emailjs.sendForm('service_3qwyqjf', 'template_8k70fsj', e.target, 'user_rPqt2rKqVdOSXb8qYB3Qs')
           .then((result) => {
             console.log(result.text);
           }, (error) => {
@@ -47,6 +49,7 @@ function Order() {
       }}
       onValuesChange={onRequiredTypeChange}
       requiredMark={requiredMark}
+      onSubmit={sendEmail}
     >
       <div style={{textAlign:'center', backgroundColor: '#000', color: '#fff', paddingLeft: '30px'}} id="buy">
         <strong>Leasing:</strong> <p>$50/beat</p>
@@ -55,7 +58,7 @@ function Order() {
       <h2>Order</h2>
       <p>Name</p>
       <Form.Item >
-        <Input type="text" name="name" />
+        <Input type="text" name="name" placeholder="Enter your first and last name" />
       </Form.Item>
       <p>E-mail</p>
       <Form.Item >

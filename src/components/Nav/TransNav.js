@@ -1,11 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
-import Moment from 'react-moment';
 import 'moment-timezone';
-import Order from '../Pages/OrderPage';
-import BuyForm from '../BuyForm';
+import Email2 from '../Email2';
 import DirectionsPage from '../Pages/DirectionsPage';
-import Contact from '../Contact';
 import Soundcloud from '../Soundcloud/Soundcloud';
 import './TransNav.css';
 
@@ -54,7 +51,6 @@ function TransNav() {
             <div className="main-title">
             {/* <h1 id="title">
             Welcome to Wyntluger Beats <br />
-            <Moment format="dddd" style={{color:'#fff', textAlign:'center'}} />
             </h1> */}
             <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img>
         </div>
@@ -79,8 +75,8 @@ function TransNav() {
         <div class="directions" id="howto">
             <DirectionsPage />
         </div>
-        <div class="order-form">
-            <Order />
+        <div class="order-form" id="buy">
+            <Email2 />
         </div>
         <div class="content" id="contact">
             Contact:
@@ -90,7 +86,7 @@ function TransNav() {
                 </svg>
                 Email
             </h4>
-                <p>wyntlugerbeats@gmail.com</p>
+                <p>wyntluger@gmail.com</p>
             <h4>
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />

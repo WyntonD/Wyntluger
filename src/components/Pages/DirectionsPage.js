@@ -26,7 +26,7 @@ function DirectionsPage() {
               </li>
             </ul> <br />
             <h3 style={{textAlign:'center'}}>You will receive your beats via e-mail from
-              wyntlugerbeats@gmail.com
+              wyntluger@gmail.com
               with your receipt followed by the terms and conditions of your beat purchase
             </h3>
           </div>
