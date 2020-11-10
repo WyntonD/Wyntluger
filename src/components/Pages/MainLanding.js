@@ -16,7 +16,7 @@ import '../Nav/TransNav.css';
 
 function MainLanding() {
     return (
-        <div className="wrapper">
+        <div className="wrapper" id="landing-wrapper">
             <div className="landing-title">
             <Moment format="dddd" style={{color:'#000', textAlign:'center'}} /> <br />
             <img src={process.env.PUBLIC_URL + './images/WLLogo.jpg'} alt="Logo" style={{width:300, height:300, marginBottom:'30px'}}></img> <br />

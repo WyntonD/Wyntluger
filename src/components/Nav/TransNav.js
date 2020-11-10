@@ -30,6 +30,7 @@ $(window).on("scroll", function() {
 })
 
 function TransNav() {
+      
     return (
         <div className="wrapper">
             <header id="top">
