@@ -3,7 +3,7 @@ import React from 'react'
 function DirectionsPage() {
     return (
             <div>
-            <h1>Wyntluger Beats offers payment through CashApp and Zelle!</h1> <br />
+            <h1 style={{textAlign:'center', color:'#000', fontFamily:" 'EB Garamond', serif"}}>Wyntluger Beats offers payment through CashApp and Zelle</h1> <br />
             <ul style={{backgroundColor: '#000', 
                         color:'#fff',
                         textAlign:'center'}}>
@@ -25,7 +25,7 @@ function DirectionsPage() {
                         textAlign:'center'}}>$WyntonD</h4> or <strong>(919)-699-6444</strong>
               </li>
             </ul> <br />
-            <h3 style={{textAlign:'center'}}>You will receive your beats via e-mail from
+            <h3 style={{textAlign:'center'}}>You will receive your beats within 1 business day via e-mail from
               wyntluger@gmail.com
               with your receipt followed by the terms and conditions of your beat purchase
             </h3>

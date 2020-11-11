@@ -30,8 +30,10 @@ function Email2() {
       </div>
       <h2>Order</h2>
     <form className="contact-form" onSubmit={sendEmail}>
-      <label> <strong>Name</strong></label> <br />
-      <input type="text" name="name" style={formStyle} placeholder="First and Last Name" /> <br />
+      <label> <strong>First Name</strong></label> <br />
+      <input type="text" name="firstname" style={formStyle} placeholder="First Name" /> <br />
+      <label> <strong>Last Name</strong></label> <br />
+      <input type="text" name="lastname" style={formStyle} placeholder="Last Name" /> <br />
       <label><strong>Email</strong></label> <br />
       <input type="text" name="email" placeholder="Enter your e-mail" style={formStyle} /> <br />
       <label><strong>Beats</strong></label> <br />

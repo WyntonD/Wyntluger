@@ -82,6 +82,13 @@ nav ul li a {
     padding-top:200px;
 }
 
+#landing-wrapper{
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2019/02/darkskies_tracymhymas6.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
 #title{
     color:#000;
 }
@@ -101,6 +108,7 @@ nav ul li a {
 #landing{
     width: 100%;
     height: 100vh;
+    margin-top:30px;
     background: url(https://wallpaper.wiki/wp-content/uploads/2019/04/Jungle-Photos13.jpg) no-repeat 50% 50%;
     background-size: cover;
 }

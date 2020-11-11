@@ -54,31 +54,32 @@ function TransNav() {
                 </div>
             </nav>
             <div className="main-title">
-            {/* <h1 id="title">
-            Welcome to Wyntluger Beats <br />
-            </h1> */}
+            
             <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img>
+            {/* <h3 id="title" style={{fontFamily:" 'EB Garamond', serif"}}>
+            Welcome <br />
+            </h3> */}
         </div>
         </header>
         <div class="content">
-            <strong>
+            <strong style={{textAlign:'center'}}>
                 Unlimited Leasing Contracts Available
             </strong>
-            <p>You will receive full royalities up to 1 million streams</p>
-            <p>
+            <p style={{textAlign:'center'}}> You will receive full royalities up to 1 million streams</p>
+            <p style={{color:'yellow'}}>
                 Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop music. 
                 The sounds provided are made with the sole intent of optimal quality and precision to maximize song potential for all artists and songwriters 
                 of many backgrounds. With this, thank you for exploring and wish you well. <br /> <br />
-                    <p style={{textAlign:'center'}}>-Wyntluger</p>
+                    <p style={{textAlign:'center', color:'#fff'}}>-Wyntluger</p>
 
 
             </p>
         </div>
-        <div class="content" id="beats">
-            <Soundcloud className="soundcloud" style={{width:'100%'}}/>
-        </div>
         <div class="directions" id="howto">
             <DirectionsPage />
+        </div>
+        <div class="content" id="beats">
+            <Soundcloud className="soundcloud" style={{width:'100%'}}/>
         </div>
         <div class="order-form" id="buy">
             <Email2 />
