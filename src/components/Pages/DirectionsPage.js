@@ -3,7 +3,7 @@ import React from 'react'
 function DirectionsPage() {
     return (
             <div>
-            <h1 style={{textAlign:'center', color:'#fff', fontFamily:" 'EB Garamond', serif"}}>Wyntluger Beats Offers Payment Through CashApp and Zelle</h1> <br />
+            <h1 style={{textAlign:'center', color:'yellow', fontFamily:" 'EB Garamond', serif"}}>Wyntluger Beats Offers Payment Through CashApp and Zelle</h1> <br />
             <ul style={{backgroundColor: '#000', 
                         color:'#fff',
                         textAlign:'center'}}>
