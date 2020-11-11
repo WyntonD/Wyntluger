@@ -22,7 +22,7 @@ function MainLanding() {
             <img src={process.env.PUBLIC_URL + './images/WLLogo.jpg'} alt="Logo" style={{width:300, height:300, marginBottom:'30px'}}></img> <br />
             <Link to="/beats">
             <Button variant="success" style={{margin:'10px'}}>Enter</Button>
-            </Link>
+            </Link> 
         </div>
         </div>
     )
