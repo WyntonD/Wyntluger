@@ -17,6 +17,7 @@ function Soundcloud() {
 
       <div className={classes.Content}>
         <Content>
+          <h1 style={{color:'#fff', fontFamily:" 'EB Garamond', serif", color:'yellow'}}>Beats</h1>
         <ReactPlayer
           width='100%'
           url="https://soundcloud.com/wyntluger"

@@ -3,7 +3,8 @@ import emailjs from 'emailjs-com';
 
   const formStyle= {
       width:'90%',
-      marginBottom:'10px'
+      marginBottom:'10px',
+      color:'#000'
   }
 
 function Email2() {
@@ -28,21 +29,21 @@ function Email2() {
       <strong>Leasing:</strong> <p>$50/beat</p>
       <strong>Buying:</strong> <p>$500/beat</p>
       </div>
-      <h2>Order</h2>
+      <h2 style={{color:'#fff'}}>Order</h2>
     <form className="contact-form" onSubmit={sendEmail}>
-      <label> <strong>First Name</strong></label> <br />
+      <label> <strong style={{color:'#fff'}}>First Name</strong></label> <br />
       <input type="text" name="firstname" style={formStyle} placeholder="First Name" /> <br />
-      <label> <strong>Last Name</strong></label> <br />
+      <label> <strong style={{color:'#fff'}}>Last Name</strong></label> <br />
       <input type="text" name="lastname" style={formStyle} placeholder="Last Name" /> <br />
-      <label><strong>Email</strong></label> <br />
+      <label><strong style={{color:'#fff'}}>Email</strong></label> <br />
       <input type="text" name="email" placeholder="Enter your e-mail" style={formStyle} /> <br />
-      <label><strong>Beats</strong></label> <br />
+      <label><strong style={{color:'#fff'}}>Beats</strong></label> <br />
       <input type="text" name="beats" placeholder="Enter your beat selections" style={formStyle}/> <br />
-      <label><strong>Lease or Buy?</strong></label> <br />
+      <label><strong style={{color:'#fff'}}>Lease or Buy?</strong></label> <br />
       <input type="text" name="leaseorbuy" placeholder="Leasing or buying? (If both, specify for each beat)" style={formStyle} /> <br />
-      <label><strong>CashApp</strong></label> <br />
+      <label><strong style={{color:'#fff'}}>CashApp</strong></label> <br />
       <input type="text" name="cashapp" placeholder="Enter your CashApp Username" style={formStyle} /> <br />
-      <label><strong>Phone Number (If using Zelle)</strong></label> <br />
+      <label><strong style={{color:'#fff'}}>Phone Number (If using Zelle)</strong></label> <br />
       <input type="text" name="phonenumber" placeholder="Enter your phone number you are using Zelle" style={formStyle} /> <br />
       <input type="submit" value="Submit Order" style={{textAlign:'center', 
                                                         backgroundColor:'green', 

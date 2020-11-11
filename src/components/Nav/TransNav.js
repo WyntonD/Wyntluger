@@ -45,11 +45,11 @@ function TransNav() {
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#top" style={{color:'green'}}>Home</a></li>
-                        <li><a href="#beats" style={{color:'green'}}>Beats</a></li>
-                        <li><a href="#buy" style={{color:'green'}}>Buy</a></li>
-                        <li><a href="#howto" style={{color:'green'}}>Directions</a></li>
-                        <li><a href="#contact" style={{color:'green'}}>Contact</a></li>
+                        <li><a href="#top" style={{color:'teal'}}>Home</a></li>
+                        <li><a href="#beats" style={{color:'teal'}}>Beats</a></li>
+                        <li><a href="#buy" style={{color:'teal'}}>Buy</a></li>
+                        <li><a href="#howto" style={{color:'teal'}}>Directions</a></li>
+                        <li><a href="#contact" style={{color:'teal'}}>Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -62,11 +62,11 @@ function TransNav() {
         </div>
         </header>
         <div class="content">
-            <strong style={{textAlign:'center'}}>
+            <strong style={{textAlign:'center', color:'yellow'}}>
                 Unlimited Leasing Contracts Available
             </strong>
             <p style={{textAlign:'center'}}> You will receive full royalities up to 1 million streams</p>
-            <p style={{color:'yellow'}}>
+            <p style={{color:'teal'}}>
                 Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop music. 
                 The sounds provided are made with the sole intent of optimal quality and precision to maximize song potential for all artists and songwriters 
                 of many backgrounds. With this, thank you for exploring and wish you well. <br /> <br />
@@ -121,7 +121,9 @@ function TransNav() {
                     wyntluger
                 </a>
         </div>
+        <footer style={{color:'#fff', textAlign:'center'}}>Wyntluger Beats. All rights reserved.@</footer>
         </div>
+
     )
 };
 
