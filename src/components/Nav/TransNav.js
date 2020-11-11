@@ -66,10 +66,10 @@ function TransNav() {
                 Unlimited Leasing Contracts Available
             </strong>
             <p style={{textAlign:'center'}}> You will receive full royalities up to 1 million streams</p>
-            <p style={{color:'teal'}}>
-                Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop music. 
-                The sounds provided are made with the sole intent of optimal quality and precision to maximize song potential for all artists and songwriters 
-                of many backgrounds. With this, thank you for exploring and wish you well. <br /> <br />
+            <p style={{color:'teal', textAlign:'center'}}>
+                Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop. 
+                The sounds provided are made with the sole intents of optimal quality and precision to maximize song potential for all artists and songwriters 
+                of many backgrounds. With this, I thank you for exploring and wish you well. <br /> <br />
                     <p style={{textAlign:'center', color:'#fff'}}>-Wyntluger</p>
 
 
