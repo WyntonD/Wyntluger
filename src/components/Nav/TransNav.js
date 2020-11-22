@@ -65,9 +65,9 @@ function TransNav() {
             onHoverEnd={e => {}}
             > 
             <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img>
-            <h4 id="title" style={{fontFamily:" 'EB Garamond', serif", color:'#fff'}}>
+            {/* <h4 id="title" style={{fontFamily:" 'EB Garamond', serif", color:'#000'}}>
             WYNTLUGER BEATS <br />
-            </h4>
+            </h4> */}
             </motion.a>
         </div>
         </header>
