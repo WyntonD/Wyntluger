@@ -2,6 +2,8 @@ import React from 'react';
 import $ from 'jquery';
 import Moment from 'react-moment';
 import 'moment-timezone';
+import { motion } from 'framer-motion';
+import { Frame, Page } from "framer";
 import Order from '../Pages/OrderPage';
 import Email2 from '../Email2';
 import BuyForm from '../BuyForm';
@@ -45,8 +47,11 @@ function TransNav() {
                 </div>
                 <div class="menu">
                     <ul>
+                        <li><a href="#top" style={{color:'teal'}}><Moment format="dddd" style={{color:'#fff', textAlign:'center', fontSize:20}} /></a></li>
                         <li><a href="#top" style={{color:'teal'}}>Home</a></li>
-                        <li><a href="#beats" style={{color:'teal'}}>Beats</a></li>
+                        <li>
+                        <a href="#beats" style={{color:'teal'}}> Beats </a>
+                        </li>
                         <li><a href="#buy" style={{color:'teal'}}>Buy</a></li>
                         <li><a href="#howto" style={{color:'teal'}}>Directions</a></li>
                         <li><a href="#contact" style={{color:'teal'}}>Contact</a></li>
@@ -54,35 +59,40 @@ function TransNav() {
                 </div>
             </nav>
             <div className="main-title">
-            
+            <motion.a
+            whileHover={{ scale: 1.2 }}
+            onHoverStart={e => {}}
+            onHoverEnd={e => {}}
+            > 
             <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img>
-            {/* <h3 id="title" style={{fontFamily:" 'EB Garamond', serif"}}>
-            Welcome <br />
-            </h3> */}
+            <h4 id="title" style={{fontFamily:" 'EB Garamond', serif", color:'#fff'}}>
+            WYNTLUGER BEATS <br />
+            </h4>
+            </motion.a>
         </div>
         </header>
-        <div class="content">
-            <strong style={{textAlign:'center', color:'yellow'}}>
-                Unlimited Leasing Contracts Available
-            </strong>
-            <p style={{textAlign:'center'}}> You will receive full royalities up to 1 million streams</p>
-            <p style={{color:'teal', textAlign:'center'}}>
-                Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop. 
-                The sounds provided are made with the sole intents of optimal quality and precision to maximize song potential for all artists and songwriters 
-                of many backgrounds. With this, I thank you for exploring and wish you well. <br /> <br />
-                    <p style={{textAlign:'center', color:'#fff'}}>-Wyntluger</p>
-
-
-            </p>
-        </div>
-        <div class="directions" id="howto">
-            <DirectionsPage />
-        </div>
         <div class="content" id="beats">
             <Soundcloud className="soundcloud" style={{width:'100%'}}/>
         </div>
         <div class="order-form" id="buy">
             <Email2 />
+        </div>
+        <div class="directions" id="howto">
+            <DirectionsPage />
+        </div>
+        <div class="content">
+            <strong style={{textAlign:'center', color:'yellow'}}>
+                Unlimited Leasing Contracts
+            </strong>
+            <p style={{textAlign:'center'}}> Receive full royalities up to 1 million streams</p>
+            <p style={{color:'teal', textAlign:'center'}}>
+                Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop. 
+                The sounds provided are made with the sole intents of optimal quality and precision to maximize potential for all artists and songwriters 
+                of many backgrounds. With this, I thank you and wish you well. <br /> <br />
+                    <p style={{textAlign:'center', color:'#fff'}}>-Wyntluger</p>
+
+
+            </p>
         </div>
         <div class="content" id="contact">
             Contact:
@@ -94,13 +104,9 @@ function TransNav() {
             </h4>
                 <p>wyntluger@gmail.com</p>
             <h4 style={{color:'#fff'}}>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
-                    <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
-                </svg>
-                Instagram
+                Instagram:
             </h4>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
                     <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
                 </svg>
@@ -109,12 +115,12 @@ function TransNav() {
                 </a> 
                 <br />
             <h4 style={{color:'#fff'}}>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
-                </svg>
+                </svg> */}
                 Soundcloud
             </h4>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
                 </svg>
                 <a href="https://soundcloud.com/wyntluger" target="_blank">

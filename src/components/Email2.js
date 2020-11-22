@@ -25,8 +25,9 @@ function Email2() {
     <div>
     <div style={{textAlign:'center',
                 backgroundColor:'#000',
-                color:'#fff'}}>
-      <strong>Leasing:</strong> <p>$50/beat</p>
+                color:'#fff',
+                fontSize: 20}}>
+      <strong>Leasing:</strong> <p>$40/beat</p>
       <strong>Buying:</strong> <p>$500/beat</p>
       </div>
       <h2 style={{color:'#fff'}}>Order</h2>

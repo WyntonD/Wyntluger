@@ -3,15 +3,15 @@ import React from 'react'
 function DirectionsPage() {
     return (
             <div>
-            <h1 style={{textAlign:'center', color:'yellow', fontFamily:" 'EB Garamond', serif"}}>Wyntluger Beats Offers Payment Through CashApp and Zelle</h1> <br />
+            <h2 style={{backgroundColor: '#000', 
+                        color:'#fff',
+                        textAlign:'center'}}> <br /> <br />
+            <h1 style={{textAlign:'center', color:'#fff', fontFamily:" 'EB Garamond', serif"}}>Payments Offered Through CashApp and Zelle</h1> <br />
+                Directions:
+            </h2> <br />
             <ul style={{backgroundColor: '#000', 
                         color:'#fff',
                         textAlign:'center'}}>
-            <h2 style={{backgroundColor: '#000', 
-                        color:'#fff',
-                        textAlign:'center'}}>
-                Directions:
-            </h2> <br />
               <li>1.Find the name of your selected beat(s) on the beat page</li>
               <li>2. Fill out the order information form located below the beats page
               </li>
@@ -25,9 +25,9 @@ function DirectionsPage() {
                         textAlign:'center'}}>$WyntonD</h4> or <strong>(919)-699-6444</strong>
               </li>
             </ul> <br />
-            <h3 style={{textAlign:'center', color:'#fff'}}>You will receive your beats within 1 business day via e-mail from
+            <h3 style={{textAlign:'center', color:'yellow'}}>You will receive your beats within 1 business day via e-mail from
               wyntluger@gmail.com
-              with your receipt followed by the terms and conditions of your beat purchase
+              with your receipt followed by the terms and conditions of your purchase
             </h3>
           </div>
     )
