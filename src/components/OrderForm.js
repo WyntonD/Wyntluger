@@ -55,8 +55,8 @@ function OrderForm() {
     >
       <div style={{textAlign:'center'}}>
       <h2>Order</h2>
-      <strong>Leasing:</strong> <p>$50/beat</p>
-      <strong>Buying:</strong> <p>$500/beat</p>
+      <strong>Lease:</strong> <p>$50/beat</p>
+      <strong>Buy:</strong> <p>$500/beat</p>
       </div>
       <p>Name</p>
       <Form.Item >
