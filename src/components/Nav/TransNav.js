@@ -7,6 +7,7 @@ import { Frame, Page } from "framer";
 import Order from '../Pages/OrderPage';
 import Email2 from '../Email2';
 import BuyForm from '../BuyForm';
+import Button from 'react-bootstrap/Button';
 import DirectionsPage from '../Pages/DirectionsPage';
 import Contact from '../Contact';
 import Soundcloud from '../Soundcloud/Soundcloud';
@@ -64,7 +65,10 @@ function TransNav() {
             onHoverStart={e => {}}
             onHoverEnd={e => {}}
             > 
-            <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img>
+            <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img><br /> <br />
+            <Button variant="danger">
+                <a href="#beats" style={{color:'teal'}}> Beats </a>
+            </Button>
             {/* <h4 id="title" style={{fontFamily:" 'EB Garamond', serif", color:'#000'}}>
             WYNTLUGER BEATS <br />
             </h4> */}

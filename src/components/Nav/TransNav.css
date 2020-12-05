@@ -12,7 +12,8 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    /* background: url(https://wallpaper.wiki/wp-content/uploads/2018/12/Macro-Photos-of-Rocks6.jpg) no-repeat 50% 50%; */
+    background: url(https://wallpaper.wiki/wp-content/uploads/2018/12/Macro-Photos-of-Rocks2.jpg) no-repeat 50% 50%;
+    /* background: url(https://player.vimeo.com/external/188556988.sd.mp4?s=25bb87288d674e1b0885b5f0fded21c74d7f7aa4&profile_id=164&oauth2_token_id=57447761) no-repeat 50% 50%; */
     background-size: cover;
     background-color:#fff;
 }
@@ -87,6 +88,7 @@ nav ul li a {
     width: 100%;
     height: 100vh;
     /* background: url(https://wallpaper.wiki/wp-content/uploads/2018/12/Macro-Photos-of-Rocks12.jpg) no-repeat 50% 50%; */
+    /* background: url(https://player.vimeo.com/external/188556988.sd.mp4?s=25bb87288d674e1b0885b5f0fded21c74d7f7aa4&profile_id=164&oauth2_token_id=57447761) no-repeat 50% 50%; */
     background-size: cover;
     background-color: #fff;
 }
