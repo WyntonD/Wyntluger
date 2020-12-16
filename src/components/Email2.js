@@ -55,6 +55,7 @@ function Email2() {
                                                         marginTop:'10px',
                                                         }} />
     </form> 
+    <p style={{color:'#fff'}}>(Check your email after submitting)</p>
     </div>
   );
 }
