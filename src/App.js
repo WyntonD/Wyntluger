@@ -5,11 +5,9 @@ import {
   Route
 } from "react-router-dom";
 import {AnimatePresence} from 'framer-motion';
-import LandingPage from './components/Pages/Landing';
 import MainLanding from './components/Pages/MainLanding';
 import Landing2 from './components/Pages/Landing2';
 import Beats from './components/Pages/Beats';
-import Success from './components/Pages/Success';
 
 function App() {
   return (
@@ -19,7 +17,6 @@ function App() {
           <Switch>
             <Route exact path="/" component={MainLanding} />
             <Route exact path="/beats" component={Landing2} />
-            <Route exact path="/orderconfirm" component={Success} />
           </Switch>
         </AnimatePresence>
     </div>

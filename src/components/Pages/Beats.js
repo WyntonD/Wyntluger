@@ -15,7 +15,6 @@ import Nav from '../Nav/Nav';
 
 
 const { Header, Content, Footer, Sider } = Layout;
-const { SubMenu } = Menu;
 const variant = {
   visible: { opacity: 1 },
   hidden: { opacity: 0 },

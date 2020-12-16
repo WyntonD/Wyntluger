@@ -3,16 +3,11 @@ import $ from 'jquery';
 import Moment from 'react-moment';
 import 'moment-timezone';
 import { motion } from 'framer-motion';
-import { Frame, Page } from "framer";
-import Order from '../Pages/OrderPage';
 import Email2 from '../Email2';
-import BuyForm from '../BuyForm';
 import Button from 'react-bootstrap/Button';
 import DirectionsPage from '../Pages/DirectionsPage';
-import Contact from '../Contact';
 import Soundcloud from '../Soundcloud/Soundcloud';
 import './TransNav.css';
-
 
 $(document).ready(function() {
     $(".menu-icon").on("click", function() {
@@ -20,13 +15,10 @@ $(document).ready(function() {
     });
 });
 
-// Scrolling Effect
-
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
           $('nav').addClass('black');
     }
-
     else {
           $('nav').removeClass('black');
     }
@@ -37,66 +29,67 @@ function TransNav() {
     return (
         <div className="wrapper">
             <header id="top">
-            <nav>
-                <div class="menu-icon">
-                    <i class="fa fa-bars fa-2x"></i>
-                </div>
-                <div class="logo">
-                <a href="#top">
-                <img src={process.env.PUBLIC_URL + './images/WLLogo.jpg'} alt="Logo" style={{width:50, height:50}}></img>
-                </a>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#top" style={{color:'teal'}}><Moment format="dddd" style={{color:'#fff', textAlign:'center', fontSize:20}} /></a></li>
-                        <li><a href="#top" style={{color:'teal'}}>Home</a></li>
-                        <li>
-                        <a href="#beats" style={{color:'teal'}}> Beats </a>
-                        </li>
-                        <li><a href="#buy" style={{color:'teal'}}>Buy</a></li>
-                        <li><a href="#howto" style={{color:'teal'}}>Directions</a></li>
-                        <li><a href="#contact" style={{color:'teal'}}>Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div className="main-title">
-            <motion.a
-            whileHover={{ scale: 1.2 }}
-            onHoverStart={e => {}}
-            onHoverEnd={e => {}}
-            > 
-            <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img><br /> <br />
-            <Button variant="danger">
-                <a href="#beats" style={{color:'teal'}}> Beats </a>
-            </Button>
-            {/* <h4 id="title" style={{fontFamily:" 'EB Garamond', serif", color:'#000'}}>
-            WYNTLUGER BEATS <br />
-            </h4> */}
-            </motion.a>
-        </div>
-        </header>
+                <nav>
+                    <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </div>
+                    <div class="logo">
+                        <a href="#top">
+                            <img src={process.env.PUBLIC_URL + './images/WLLogo.jpg'} alt="Logo" style={{width:50, height:50}}></img>
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#top" style={{color:'teal'}}><Moment format="dddd" style={{color:'#fff', textAlign:'center', fontSize:20}} /></a></li>
+                            <li><a href="#top" style={{color:'teal'}}>Home</a></li>
+                            <li>
+                                <a href="#beats" style={{color:'teal'}}> Beats </a>
+                            </li>
+                            <li><a href="#buy" style={{color:'teal'}}>Buy</a></li>
+                            <li><a href="#howto" style={{color:'teal'}}>Directions</a></li>
+                            <li><a href="#contact" style={{color:'teal'}}>Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                    <div className="main-title">
+                        <motion.a
+                            whileHover={{ scale: 1.2 }}
+                            onHoverStart={e => {}}
+                            onHoverEnd={e => {}}
+                        > 
+                            <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img><br /> <br />
+                        </motion.a>
+                            <Button 
+                                variant="danger"
+                                style={{marginTop:'20px;'}}
+                            >
+                                <a href="#beats" style={{color:'teal'}}> Beats </a>
+                            </Button>
+                        <h1 style={{color:"#fff", marginTop:'30px;'}}>13% off sale for leasing for 2 weeks!</h1>
+                    </div>
+            </header>
         <div class="content" id="beats">
             <Soundcloud className="soundcloud" style={{width:'100%'}}/>
         </div>
-        <div class="order-form" id="buy">
+        <div class="order-form" 
+             id="buy">
             <Email2 />
         </div>
-        <div class="directions" id="howto">
+        <div class="directions" 
+             id="howto">
             <DirectionsPage />
         </div>
         <div class="content">
             <strong style={{textAlign:'center', color:'yellow'}}>
                 Unlimited Leasing Contracts
             </strong>
-            <p style={{textAlign:'center'}}> Receive full royalities up to 1 million streams</p>
-            <p style={{color:'teal', textAlign:'center'}}>
-                Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop. 
-                The sounds provided are made with the sole intents of optimal quality and precision to maximize potential for all artists and songwriters 
-                of many backgrounds. With this, I thank you and wish you well. <br /> <br />
-                    <p style={{textAlign:'center', color:'#fff'}}>-Wyntluger</p>
-
-
-            </p>
+                <p style={{textAlign:'center'}}> Receive full royalities up to 1 million streams</p>
+                <p style={{color:'teal', textAlign:'center'}}>
+                    Wyntluger Beats brings you sounds of multiple of genres to include Electronic, R & B, and Hip-hop. 
+                    The sounds provided are made with the sole intents of optimal quality and precision to maximize potential for all artists and songwriters 
+                    of many backgrounds. With this, I thank you and wish you well. <br /> <br />
+                <p style={{textAlign:'center', color:'#fff'}}>-Wyntluger</p>
+                </p>
         </div>
         <div class="content" id="contact">
             Contact:
@@ -132,9 +125,7 @@ function TransNav() {
                 </a>
         </div>
         <footer style={{color:'#fff', textAlign:'center'}}>Wyntluger Beats. All rights reserved.@</footer>
-        </div>
-
-    )
-};
+    </div>
+    )};
 
 export default TransNav;

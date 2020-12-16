@@ -23,12 +23,13 @@ function Email2() {
 
   return (
     <div>
-    <div style={{textAlign:'center',
+    <div 
+        style={{textAlign:'center',
                 backgroundColor:'#000',
-                color:'#fff',
+                color:'yellow',
                 fontSize: 20}}>
-      <strong>Leasing:</strong> <p>$40/beat</p>
-      <strong>Buying:</strong> <p>$500/beat</p>
+      <strong >Leasing: (13% off sale)</strong> <p>$35 (per beat)</p>
+      <strong>Buying:</strong> <p>$500 (per beat)</p>
       </div>
       <h2 style={{color:'#fff'}}>Order</h2>
     <form className="contact-form" onSubmit={sendEmail}>
