@@ -31,7 +31,7 @@ function Email2() {
       <strong >Leasing: (13% off sale)</strong> <p>$35 (per beat)</p>
       <strong>Buying:</strong> <p>$500 (per beat)</p>
       </div>
-      <h2 style={{color:'#fff'}}>Order</h2>
+      <h2 style={{color:'#fff'}}>Purchase Beats:</h2>
     <form className="contact-form" onSubmit={sendEmail}>
       <label> <strong style={{color:'#fff'}}>First Name</strong></label> <br />
       <input type="text" name="firstname" style={formStyle} placeholder="First Name" /> <br />
