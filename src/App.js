@@ -4,22 +4,24 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import {AnimatePresence} from 'framer-motion';
+
 import MainLanding from './components/Pages/MainLanding';
 import Landing2 from './components/Pages/Landing2';
 import Beats from './components/Pages/Beats';
 
+import {AnimatePresence} from 'framer-motion';
+
 function App() {
   return (
     <Router>
-    <div className="App">
-        <AnimatePresence>
-          <Switch>
-            <Route exact path="/" component={MainLanding} />
-            <Route exact path="/beats" component={Landing2} />
-          </Switch>
-        </AnimatePresence>
-    </div>
+      <div className="App">
+          <AnimatePresence>
+            <Switch>
+              <Route exact path="/" component={MainLanding} />
+              <Route exact path="/beats" component={Landing2} />
+            </Switch>
+          </AnimatePresence>
+      </div>
     </Router>
   );
 }

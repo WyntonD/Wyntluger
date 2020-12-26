@@ -26,10 +26,10 @@ function Email2() {
     <div 
         style={{textAlign:'center',
                 backgroundColor:'#000',
-                color:'yellow',
+                color:'#fff',
                 fontSize: 20}}>
-      <strong >Leasing: (13% off sale)</strong> <p>$35 (per beat)</p>
-      <strong>Buying:</strong> <p>$500 (per beat)</p>
+      <strong >Leasing: (sale)</strong> <p>$35 </p>
+      <strong>Buying:</strong> <p>$500</p>
       </div>
       <h2 style={{color:'#fff'}}>Purchase Beats:</h2>
     <form className="contact-form" onSubmit={sendEmail}>
