@@ -121,7 +121,7 @@ function TransNav() {
                                     Beats 
                                 </a>
                             </Button>
-                        <h1 style={{color:"#fff", marginTop:'30px;'}}>SALE: 13% Off of Leasing for 2 weeks!</h1>
+                        {/* <h1 style={{color:"#fff", marginTop:'30px;'}}>SALE: 13% Off of Leasing for 2 weeks!</h1> */}
                     </div>
             </header>
         <div class="content"  
