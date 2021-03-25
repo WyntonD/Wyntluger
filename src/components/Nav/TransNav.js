@@ -111,12 +111,12 @@ function TransNav() {
                             <img src={process.env.PUBLIC_URL + './images/BlackLogo.png'} alt="Logo" style={{width:50, height:50}}></img><br /> <br />
                         </motion.a>
                             <Button 
-                                variant="danger"
-                                style={{marginTop:'20px;'}}
+                                style={{marginTop:'20px;',
+                                        backgroundColor:'#000'}}
                             >
                                 <a href="#beats" 
                                     style={{
-                                    color:'teal'}}
+                                    color:'beige'}}
                                 > 
                                     Beats 
                                 </a>
@@ -176,7 +176,7 @@ function TransNav() {
                 Email:
             </h4>
                 <p>wyntluger@gmail.com</p>
-            <h4 style={{
+            {/* <h4 style={{
                 color:'#fff'}}
             >
                 Instagram:
@@ -199,7 +199,7 @@ function TransNav() {
                 </svg>
                 <a href="https://soundcloud.com/wyntluger" target="_blank">
                     wyntluger
-                </a>
+                </a> */}
         </div>
         <footer style={{color:'#fff', 
                 textAlign:'center'}}
