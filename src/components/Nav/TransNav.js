@@ -152,6 +152,7 @@ function TransNav() {
                     textAlign:'center'}}
                 > 
                     Receive full royalities up to 1 million streams</p>
+
                 <p style={{
                     color:'#fff', 
                     textAlign:'center'}}

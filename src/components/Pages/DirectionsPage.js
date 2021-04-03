@@ -16,32 +16,24 @@ function DirectionsPage() {
                           }}
                 >
                       Payments Offered Through CashApp and Zelle</h1> <br />
-                      Directions:
+                      Directions to Lease or Buy:
             </h2> 
               <br />
-            <ul style={{backgroundColor: '#000', 
+            <ol style={{backgroundColor: '#000', 
                         color:'#fff',
-                        textAlign:'center'
+                        textAlign:'center',
+                        fontWeight:'bold'
                        }}
             >
-                <li>1.Find the name of your selected beat(s) on the beat page </li>
-                <li>2. Fill out the order information form located below the beats page </li>
-                <li>3. You will receive a payment request for your total amount via
-                    either CashApp or Zelle from <strong >$WyntonD</strong> or <strong>(919)-699-6444</strong>
+                {/* <li>Find the name of your selected beat(s) on the beat page </li> */}
+                <li>Fill out the beat order form </li>
+                <li>Wait for a e-mailed order confirmation with a payment request via
+                    CashApp or Zelle from <strong >$Wyntluger</strong> or <strong>(919)-699-6444</strong>
                 </li>
-                <li>4. Send the total payment for your beat selections via CashApp or Zelle to:
-                    <h4 style={{
-                        color:'#fff',
-                        textAlign:'center'
-                        }}>
-                          $WyntonD
-                    </h4> 
-                          or 
-                    <strong>
-                      (919)-699-6444
-                    </strong>
+                <li>Send the total payment for your beat selections via CashApp or Zelle
                 </li>
-            </ul> 
+              <h4></h4>
+            </ol> 
               <br />
             <h3 style={{  
                       textAlign:'center', 
