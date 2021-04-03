@@ -33,20 +33,20 @@ function Email2() {
       </div>
       {/* <h2 style={{color:'#fff'}}>Purchase Beats:</h2> */}
     <form className="contact-form" onSubmit={sendEmail}>
-      <label> <strong style={{color:'#fff'}}>First Name</strong></label> <br />
-      <input type="text" name="firstname" style={formStyle} placeholder="First Name" /> <br />
-      <label> <strong style={{color:'#fff'}}>Last Name</strong></label> <br />
-      <input type="text" name="lastname" style={formStyle} placeholder="Last Name" /> <br />
+      <label> <strong style={{color:'#fff'}}>Name</strong></label> <br />
+      <input type="text" name="ordername" style={formStyle} placeholder="Enter your name here" /> <br />
+      {/* <label> <strong style={{color:'#fff'}}>Last Name</strong></label> <br />
+      <input type="text" name="lastname" style={formStyle} placeholder="Last Name" /> <br /> */}
       <label><strong style={{color:'#fff'}}>Email</strong></label> <br />
-      <input type="text" name="email" placeholder="Enter your e-mail" style={formStyle} /> <br />
+      <input type="text" name="email" placeholder="Enter your e-mail here" style={formStyle} /> <br />
       <label><strong style={{color:'#fff'}}>Beats</strong></label> <br />
-      <input type="text" name="beats" placeholder="Enter your beat selections" style={formStyle}/> <br />
-      <label><strong style={{color:'#fff'}}>Lease or Buy?</strong></label> <br />
-      <input type="text" name="leaseorbuy" placeholder="Leasing or buying? (If both, specify for each beat)" style={formStyle} /> <br />
+      <input type="text" name="beats" placeholder="Please separate by commas if more than one" style={formStyle}/> <br />
+      <label><strong style={{color:'#fff'}}>Lease/Buy</strong></label> <br />
+      <input type="text" name="leaseorbuy" placeholder="Leasing or buying?" style={formStyle} /> <br />
       <label><strong style={{color:'#fff'}}>CashApp</strong></label> <br />
-      <input type="text" name="cashapp" placeholder="Enter your CashApp Username" style={formStyle} /> <br />
+      <input type="text" name="cashapp" placeholder="Enter your CashApp Username here" style={formStyle} /> <br />
       <label><strong style={{color:'#fff'}}>Phone Number (If using Zelle)</strong></label> <br />
-      <input type="text" name="phonenumber" placeholder="Enter your phone number you are using Zelle" style={formStyle} /> <br />
+      <input type="text" name="phonenumber" placeholder="Enter your phone number here if you are using Zelle" style={formStyle} /> <br />
       <input type="submit" value="Submit Order" style={{textAlign:'center', 
                                                         backgroundColor:'green', 
                                                         color:'#fff',

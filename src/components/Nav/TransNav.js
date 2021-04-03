@@ -112,11 +112,13 @@ function TransNav() {
                         </motion.a>
                             <Button 
                                 style={{marginTop:'20px;',
-                                        backgroundColor:'#000'}}
+                                        backgroundColor:'#000'
+                                       }}
                             >
                                 <a href="#beats" 
                                     style={{
-                                    color:'beige'}}
+                                    color:'beige'
+                                    }}
                                 > 
                                     Beats 
                                 </a>
