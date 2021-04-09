@@ -19,7 +19,7 @@ function Soundcloud() {
             </a>
           </h2>
         <ReactPlayer
-            width='100%'
+            width='100vw'
             url="https://soundcloud.com/wyntluger"
         />
         </Content>
